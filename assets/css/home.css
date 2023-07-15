@@ -1,0 +1,87 @@
+#taskContainer {
+  
+  
+}
+#homeContainer{
+  display: flex;
+  flex-direction: column;
+}
+#HabitContainer{
+  height: 450px;
+  width:100%;
+  overflow-y:scroll;
+}
+
+.habitInfo{
+  display: flex;
+  
+  justify-content: space-between;
+  width: 90%;
+  margin-left: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: large;
+  align-items:baseline
+}
+.habitInfo button{
+  width: auto;
+  height:fit-content;
+  justify-content: baseline;
+  
+}
+.currentHabbit{
+  display: flex;
+  border: 2px solid rgb(5, 5, 5);
+  width:72.8%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 15.2%;
+  background-color: whitesmoke;
+  flex-direction: column;
+  
+}
+.currentHabbit h2{
+  padding-left: 2%;
+}
+#addHabbit {
+  background-color:rgba(0, 0, 0, 0.764);
+  width:70%;
+  padding:1%;
+  margin-left: 15%;
+  margin-top: 1%;
+  
+ 
+}
+#addHabbit legend{
+  color: white;
+}
+#addHabbit-container{
+  display:flex;
+  width: auto;
+  justify-content: space-between;
+}
+#taskName{
+  flex-grow: 0.9;
+}
+#targetTask{
+  width: 50px;
+}
+#addHabbit-container input{
+  
+  box-sizing: border-box
+}
+
+#addTasktables{
+  margin: 10px;
+}
+
+
+#status{
+  border: none;
+  cursor: pointer;
+}
+
+.deleteHF{
+  cursor: pointer;
+}
+
