@@ -1,4 +1,4 @@
-# HabitTrackerAPI
+# HabitTracker
 This is Basic Habit Tracking Application for Users to Track Daily Habits for a week and this file is Readme for this Web Application. It's a Web App built with Node.js and EJS. It allows users to define habits and track their progress on a daily basis for a week.
 # Contributed By:- Pranav
 
@@ -45,8 +45,8 @@ HabbitTracker
     └── _header.ejs
 ```
 
-#Features of this App:-
-```
+# Features of this App:-
+
 1. Add multiple habits to track, such as reading a book, going to the gym, etc only for 1 user.
    Track the status of each habit daily: done, not done, or none.
 2. View all current habits and add new habits to track.
@@ -61,7 +61,7 @@ HabbitTracker
    habits and other possesses all good habits, then 2 users can use this.
 7. In future it will be tried to classify/categorise the user habits as well as classify them daywise 		 
    (timewise) for a single user first and then for multiple ones.
-```
+
 # Getting Started:-
 # Prerequisites:-
 ```
@@ -71,12 +71,36 @@ Express
 Mongoose
 ```
 # Installation Steps:-
-# 1. Clone the repository:-
+1. Clone the repository:-
 ```
 git clone https://github.com/vijaysaipranav/habbitTracker.git
 ```
-# 2. Install the dependencies:
+2. Install the dependencies:
 ```
-cd habit
+cd habbitTracker
 npm install
 ```
+3. Configure the database connection:
+In server.js use your own mongoDB username and Password from connection string of MongoDB Campus or Cloud MongoDB to configure the DB connection.
+4. Start the application:
+```
+npm start
+```
+5. Open your web browser and visit [http://localhost:3000](url) to access the Habit Tracking App.
+
+# Contributing:
+Contributions are most easily and thankfully welcome! If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature/fix.
+3. Make the necessary changes and commit them.
+4. Push the changes to your forked repository.
+5. Submit a pull request explaining the changes you've made.
+
+# Acknowledgements:
+The libraries and resources that you used in the development of this project are Visual Studio Code and MongoDB Cloud database finally with render for deployment.
+
+# Contact:
+
+1. Email - [vijaysaipranavt@gmail.com](url)
+2. Project Link - [https://github.com/vijaysaipranav/habbitTracker.](url)
