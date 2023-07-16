@@ -73,5 +73,10 @@ Mongoose
 # Installation Steps:-
 # 1. Clone the repository:-
 ```
-
+git clone https://github.com/vijaysaipranav/habbitTracker.git
+```
+# 2. Install the dependencies:
+```
+cd habit
+npm install
 ```
