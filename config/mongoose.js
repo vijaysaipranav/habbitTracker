@@ -1,7 +1,7 @@
 {
     const mongoose= require('mongoose');
-
-    mongoose.connect('mongodb://127.0.0.1:27017/Habbit_Tracker_Db',{useNewUrlParser:true,useUnifiedTopology:true});
+    
+    mongoose.connect('mongodb+srv://vijaysaipranavt:pranav3108011234@cluster2.cmyuqua.mongodb.net/Habbit_Tracker_Db?retryWrites=true&w=majority',{useNewUrlParser:true,useUnifiedTopology:true});
 
     const db=mongoose.connection;
 

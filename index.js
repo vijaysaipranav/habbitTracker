@@ -8,7 +8,7 @@
     
     const expressEjsLayouts = require('express-ejs-layouts');
     const path = require('path');
-    const port= 3000;
+    const port= process.env.PORT || 8000;
     const app = express();
 
     // connecting to mongoose..
