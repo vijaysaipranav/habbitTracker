@@ -86,7 +86,7 @@ In server.js use your own mongoDB username and Password from connection string o
 ```
 npm start
 ```
-5. Open your web browser and visit [http://localhost:3000](url) to access the Habit Tracking App.
+5. Open your web browser and visit [https://habbittracker-52vx.onrender.com](url) to access the Habit Tracking App.
 
 # Contributing:
 Contributions are most easily and thankfully welcome! If you'd like to contribute to this project, please follow these steps:
